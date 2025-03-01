@@ -1,0 +1,27 @@
+.button {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  border: none;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10;
+}
+
+.serif {
+  position: fixed;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  background-color: rgb(220, 120, 70);
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(100, 50, 0);
+}
+
+.text {
+  font-family: serif;
+  color: rgb(100, 50, 0);
+  white-space: pre-wrap;
+}

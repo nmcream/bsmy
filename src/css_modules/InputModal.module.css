@@ -1,0 +1,32 @@
+.div {
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+}
+
+.text {
+  font-family: serif;
+}
+
+.box {
+  background-color: rgb(220, 120, 70);
+  border-radius: 8px;
+  border: 1px solid rgb(100, 50, 0);
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  row-gap: 8px;
+  padding: 12px;
+}
+
+.button {
+  width: 20%;
+  margin: 0 0 0 auto;
+  font-family: serif;
+}
