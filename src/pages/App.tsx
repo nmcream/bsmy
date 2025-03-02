@@ -1,12 +1,13 @@
 import { useState } from "react";
 import InputModal from "../components/InputModal";
 import classes from "./css_modules/App.module.css";
+import img from "../img/normal.png";
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className={classes.div} style={{ backgroundImage: `url(${img})` }}>
       <button
         className={classes.button}
         onClick={() => {

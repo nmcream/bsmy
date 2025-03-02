@@ -14,7 +14,14 @@ export default function InputModal({ isOpen }: InputModalProps): ReactElement {
   const onClick = () => {
     if (name.includes("魔矢") || name.includes("神上")) {
       navigate("/bsmy-route", { state: { name: name } });
-    } else if (name.includes("もぶ") || name.includes("モブ")) {
+    } else if (
+      name.includes("もぶ") ||
+      name.includes("モブ") ||
+      name.includes("おじ") ||
+      name.includes("オジ") ||
+      name.includes("おぢ") ||
+      name.includes("オヂ")
+    ) {
       navigate("/mbbs-route", { state: { name: name } });
     } else {
       navigate("/nomal-route", { state: { name: name } });

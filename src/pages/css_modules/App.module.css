@@ -1,3 +1,8 @@
+.div {
+  background-size: cover;
+  background-position: center;
+}
+
 .button {
   display: block;
   height: 100vh;
@@ -13,7 +18,7 @@
   right: 10px;
   left: 10px;
   bottom: 10px;
-  background-color: rgb(220, 120, 70);
+  background-color: rgb(245, 160, 125);
   height: 100px;
   padding: 10px;
   border-radius: 8px;

@@ -1,6 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import classes from "./css_modules/App.module.css";
 import { useState } from "react";
+import img from "../img/normal.png";
+import logo from "../img/logo.png";
 
 export default function NomalRoute() {
   const location = useLocation();
@@ -10,6 +12,7 @@ export default function NomalRoute() {
   const serif = [
     `ほう、${name}殿と申すか。良き名であるな！\n改めて、これからよろしく頼むのである！`,
   ];
+  const backgroundImage = [`url(${img})`, `url(${logo})`];
   const onClick = () => {
     if (serifIndex < 1) {
       setSerifIndex(serifIndex + 1);
@@ -19,11 +22,16 @@ export default function NomalRoute() {
   };
 
   return (
-    <div>
+    <div
+      className={classes.div}
+      style={{ backgroundImage: backgroundImage[serifIndex] }}
+    >
       <button className={classes.button} onClick={onClick} />
-      <div className={classes.serif}>
-        <text className={classes.text}>{serif[serifIndex]}</text>
-      </div>
+      {serifIndex < 1 && (
+        <div className={classes.serif}>
+          <text className={classes.text}>{serif[serifIndex]}</text>
+        </div>
+      )}
     </div>
   );
 }
