@@ -8,11 +8,13 @@ import BsmyRoute from "./pages/BsmyRoute";
 import NomalRoute from "./pages/NomalRoute";
 import MbbsRoute from "./pages/MbbsRoute";
 
+const basename = "/bsmy";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={basename}>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/nomal-route" element={<NomalRoute />} />
