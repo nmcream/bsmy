@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bsmy/static/css/main.e09b9d3d.css",
+    "main.js": "/bsmy/static/js/main.9bb794a4.js",
+    "static/js/453.56e6ae59.chunk.js": "/bsmy/static/js/453.56e6ae59.chunk.js",
+    "static/media/normal.png": "/bsmy/static/media/normal.9d008df0fd8afe6df721.png",
+    "static/media/omake.png": "/bsmy/static/media/omake.369e64b8c196bc159a03.png",
+    "static/media/kinniku.png": "/bsmy/static/media/kinniku.9a7dfabe80bf72f8dec4.png",
+    "static/media/nikkori.png": "/bsmy/static/media/nikkori.344ceac9163799a9b72a.png",
+    "static/media/kime.png": "/bsmy/static/media/kime.3c4b5a1dec35e57c5936.png",
+    "static/media/syugyo.png": "/bsmy/static/media/syugyo.5f934187cae8acabd3c7.png",
+    "static/media/seisou.png": "/bsmy/static/media/seisou.a723f225872d67221b30.png",
+    "static/media/bikkuri.png": "/bsmy/static/media/bikkuri.e1fd8a2067861a60a08e.png",
+    "static/media/logo.png": "/bsmy/static/media/logo.0799c1349eac2be32537.png",
+    "index.html": "/bsmy/index.html",
+    "main.e09b9d3d.css.map": "/bsmy/static/css/main.e09b9d3d.css.map",
+    "main.9bb794a4.js.map": "/bsmy/static/js/main.9bb794a4.js.map",
+    "453.56e6ae59.chunk.js.map": "/bsmy/static/js/453.56e6ae59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e09b9d3d.css",
+    "static/js/main.9bb794a4.js"
+  ]
+}
